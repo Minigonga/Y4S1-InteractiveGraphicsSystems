@@ -1,42 +1,14 @@
-# SGI 2025/2026
+# SGI 2025/2026 - PW2
 
 ## Group T03G06
-| Name             | Number    | E-Mail             |
-| ---------------- | --------- | ------------------ |
-| Gonçalo Pinto         | 202204943 | up202204943@up.pt                |
-| Leonardo Ribeiro         | 202205144 | up202205144@up.pt                |
-| Manuel Mo         | 202205000 | up202205000@up.pt                |
+
+| Name             | Number    | E-Mail             | Percentages |
+| ---------------- | --------- | ------------------ | -------- |
+| Gonçalo Pinto         | 202204943 | up202204943@up.pt                | 33.33% |
+| Leonardo Ribeiro         | 202205144 | up202205144@up.pt                | 33.33% |
+| Manuel Mo         | 202205000 | up202205000@up.pt                | 33.33% |
 
 ----
-
-## Projects
-
-### [PW1 - ThreeJS Basics](pw1)
-
-## Grade 18.5/20
-
-- Objects:
-  - `Lamp`: A realistic table lamp featuring a metallic golden base and neck, a bright red conical lampshade, and a glowing yellow bulb that emits warm light through a spotlight. The lamp’s design combines soft curves with vivid color contrast.
-  - `Table`: a simple rectangular table with 4 legs and with wood texture.
-  - `Chair`: A realistic wooden chair. It has a square wooden seat with four cylindrical legs, a rope-woven backrest made of thin horizontal and vertical ropes (with rope texture), and a soft textured cushion placed on the seat.
-  - `Candle`: A small realistic wax candle with a glowing yellow flame and a black wick, standing on a decorative golden holder with a round base and curved metal arms. The flame emits warm light, giving the candle a soft, luminous effect.
-  - `Book`: A textured 3D book model featuring realistic leather covers, light cream-colored pages with detailed side textures, and subtle geometric tilts for natural placement. The book includes a wooden holder or spine structure, adding depth and realism to the scene.
-  - `Closed Book`: A realistic 3D closed book model with a shiny front and back cover, a matte pages block, and a connecting spine. The model is fully parametric, allowing customization of cover color, page color, width, height, and thickness, making it suitable for a variety of interior or library scenes.
-  - `Bookshelf`: A tall wooden bookshelf with three internal shelves, a solid back panel, and a smooth wood texture for a realistic finish.
-  - `Picture Frame`: A square wooden frame containing a textured artwork plane, with adjustable wrapping and rotation of the artwork.
-  - `Door`: A wooden door with a realistic textured panel, surrounded by a wooden frame, and featuring a metallic handle.
-
-- Scene:
-  - A cozy interior room with a wooden floor and mirrored-textured walls. The room features a table with an open book on it, accompanied by a chair and a lamp. A bookshelf nearby holds several colorful closed books. A lit candle adds warm ambiance, while a picture frame hangs on the wall and a wooden door provides an exit. A window allows natural light in, and subtle floor frames add structural detail. Ambient and spotlights illuminate the scene for realism.
-  - Link: http://127.0.0.1:5500/pw1/
-  - Screenshot [link](pw1/prints/scene.png)
-  ![scene](pw1/prints/scene.png)
------
-
-### [PW2 - Underwater ecosystem](pw2)
-
-## Grade TBD/20
-
 ## Project information
 
 This project is a complete implementation of the SGI PW2 requirements, featuring a modular, interactive, and visually rich underwater scene. All mandatory features described in the official assignment have been implemented, along with several bonus features. Below, there is a detailed explanation of everything the project has.
@@ -45,59 +17,59 @@ This project is a complete implementation of the SGI PW2 requirements, featuring
 
 **MySubmarine** - Capsule, cylinder and extrude geometry composition. Physics-based movement with drag. Custom Fresnel shield shader. Dual spotlights and warning light. BVH collision detection.
 
-![submarine](pw2/screenshots/submarine.png)
+![submarine](screenshots/submarine.png)
 
 **MyJellyfish** - Hemisphere cap with animated border wave. TubeGeometry tentacles with procedural waving. LOD support. Internal SpotLight for bioluminescence.
 
-![jellyFish](pw2/screenshots/jellyFish.png)
+![jellyFish](screenshots/jellyFish.png)
 
 **MyBream Fish** - Procedurally generated vertex-by-vertex with LOD. Skeletal animation with bone-based swimming. Flocking behavior.
 
-![breamFish](pw2/screenshots/breamFish.png)
+![breamFish](screenshots/breamFish.png)
 
 **MySlimFish** - Procedurally generated vertex-by-vertex with LOD. Skeletal animation with bone-based swimming. Flocking behavior.
 
-![slimFish](pw2/screenshots/slimFish.png)
+![slimFish](screenshots/slimFish.png)
 
 **MyTurtle** - Procedurally generated vertex-by-vertex. Swimming animation. Flocking behavior.
 
-![turtle](pw2/screenshots/turtle.png)
+![turtle](screenshots/turtle.png)
 
 **MyShark** - Procedurally generated vertex-by-vertex with skeletal animation. KeyFrame animation for path behaviour.
 
-![shark](pw2/screenshots/shark.png)
+![shark](screenshots/shark.png)
 
 **MyCrab** - Cylinder based.
 
-![crab](pw2/screenshots/crab.png)
+![crab](screenshots/crab.png)
 
 **MyStarFish** - Cylinder based with perlin noise shader.
 
-![starFish](pw2/screenshots/starFish.png)
+![starFish](screenshots/starFish.png)
 
 **MyAlga** - Cylinder based stalk with leaf planes with LOD. High detail with geometry, low detail with textured plane. Wave animation.
 
-![alga](pw2/screenshots/alga.png)
+![alga](screenshots/alga.png)
 
 **MyRock** - Dodecahedron-based cluster with LOD. High and low detail variants.
 
-![rock](pw2/screenshots/rock.png)
+![rock](screenshots/rock.png)
 
 **MyCoral (Type 1)** - L-system generated procedural branches. Cylinder based construction. LOD support with animation.
 
-![coral](pw2/screenshots/coral.png)
+![coral](screenshots/coral.png)
 
 **MyCoralStochastic (Type 2)** - Stochastic L-system generated branches. Cylinder based construction. LOD support with animation.
 
-![coralStochastic](pw2/screenshots/coralStochastic.png)
+![coralStochastic](screenshots/coralStochastic.png)
 
 **MyTemple** - Composite structure with texture and collision detection.
 
-![temple](pw2/screenshots/temple.png)
+![temple](screenshots/temple.png)
 
 **MyShipwreck** - Composite structure with collision detection.
 
-![shipwreck](pw2/screenshots/shipwreck.png)
+![shipwreck](screenshots/shipwreck.png)
 
 ## HUD
 
@@ -166,15 +138,15 @@ The video textures are in 720p.
 
 **MyMarineSnow** - THREE.Points particle system. Per-particle velocity and noise drift. Automatic boundary reset. Canvas-generated circular gradient texture. Additive blending.
 
-![marineSnow](pw2/screenshots/marineSnow.png)
+![marineSnow](screenshots/marineSnow.png)
 
 **MyBubbleParticles** - Geometry-based particle clusters. Floating upward animation.
 
-![bubbles](pw2/screenshots/bubbles.png)
+![bubbles](screenshots/bubbles.png)
 
 **MySandPuff** - Explosion-like particle effect triggered by terrain clicks. Radial emission with gravity and drag simulation. Time-based lifecycle.
 
-![sandPuff](pw2/screenshots/sandPuff.png)
+![sandPuff](screenshots/sandPuff.png)
 
 ---
 
@@ -256,4 +228,3 @@ Although many optimizations were implemented, the scene is still somewhat heavy.
 ## Features Not Implemented
 
 As mentioned above, all features in the assignment have been implemented.
-
