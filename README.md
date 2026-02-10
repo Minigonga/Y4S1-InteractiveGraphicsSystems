@@ -35,7 +35,7 @@
 
 ### [PW2 - Underwater ecosystem](pw2)
 
-## Grade TBD/20
+## Grade 19.7/20
 
 ## Project information
 
